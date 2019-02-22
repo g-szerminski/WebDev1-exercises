@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a.first {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	font-family: arial;
+	padding: 20px 60px 20px 100px;
+	background-image: url('dzien12/zad2/emoticon1.png');
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	background-color: cornflowerblue;
+}
+
+a.first:hover {
+	background-image: url('dzien12/zad2/emoticon2.png');
+}
+
+a.second {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	font-family: arial;
+	padding: 20px 60px 20px 100px;
+	background-image: url('dzien12/zad2/emoticons.png');
+	background-repeat: no-repeat;
+	background-position: 15px 4px;
+	transition: 0.5s;
+	background-color: cornflowerblue;
+}
+
+a.second:hover {
+	background-position: 15px -73px;
+	background-color: royalblue;
+}

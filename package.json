@@ -1,0 +1,24 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/szerminski/webdev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/szerminski/webdev/issues"
+  },
+  "homepage": "https://gitlab.com/szerminski/webdev#README",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

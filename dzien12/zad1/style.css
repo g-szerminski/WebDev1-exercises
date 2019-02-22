@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+}
+
+body {
+	min-height: 300vh;
+}
+
+header {
+	position: relative;
+	background-image: url('dzien12/zadanie1/city.jpg');
+	background-attachment: fixed;
+	background-position: center bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 80vh;
+	font-family: arial;
+	font-size: 80px;
+	color: white;
+}
+
+h1 {
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	background-color: rgba(0 , 0 , 0, 0.7);
+	width: 100vw;
+	text-align: center;
+}
+
+section {
+	margin: 100px auto 0;
+	width: 80vw;
+	line-height: 190%;
+	font-family: verdana;	
+}

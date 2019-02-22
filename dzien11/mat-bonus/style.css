@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ 
+div {
+	position: fixed;
+}
+
+.sun {
+	width: 20vw;
+	height: 20vw;
+	background-color: orange;
+	border-radius: 50%;
+	bottom: 5vh;
+	left: 15%;
+	z-index: 1;
+}
+
+.grass {
+	bottom: 0;
+	height: 30vh;
+	left: 0;
+	right: 0;
+	/*width: 100%;   może też być  !!!*/
+	background-color: green;
+	z-index: 2;
+}
+
+.sky {
+	background-color: lightblue;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*bottom: 0;   może też być !!!
+	right: 0;*/
+}
+
+
+/*.sun {
+	position: absolute;
+	background-color: yellow;
+	width: 15vw;
+	height: 15vw;
+	top: 55%;
+	left: 30%;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.grass {
+	position: absolute;
+	background-color: green;
+	height: 35vh;
+	width: 100vw;
+	bottom: 0;
+	z-index: 2;
+}
+
+.sky {
+	position: relative;
+	background-color: lightblue;
+	height: 100vh;
+	width: 100vw;
+	ilter: opacity(0.5);
+}*/

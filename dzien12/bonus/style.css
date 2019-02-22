@@ -1,0 +1,30 @@
+body {
+	background-color: #effefe;
+	background-image: linear-gradient(#eee 2px, transparent 0), 
+	                  linear-gradient(90deg, #eee 2px, transparent 0);
+	-webkit-background-size: 60px 60px;
+	background-size: 30px 30px;
+}
+
+.bg {
+	height: 50vh;
+	width: 50vh;
+	border: 14px solid red;
+	padding: 30px;
+	margin: 0 auto;
+
+	/*zapis skrótowy*/
+	background: rgba(0, 0, 0, 0.9)
+	url('kwiatek.jpg') no-repeat center/ auto auto
+	padding-box border-box;
+
+
+/*Style domyślne przeglądarki wyglądają tak.*/
+	/*background: rgba(0, 0, 0, 0.9)
+	url('kwiatek.jpg') repeat 0% 0%-(bg position) / auto
+	auto-(bg size) padding-box border-box;*/
+}
+
+h2 {
+	text-align: center;
+}

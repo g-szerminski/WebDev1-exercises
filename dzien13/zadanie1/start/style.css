@@ -1,0 +1,43 @@
+/*Rozwiązanie 1*/
+div {
+	font-size: 40px;
+	display: none;
+}
+
+@media (max-width: 359px) {
+	body {background-color: red}
+	.item1 {display: block}
+}
+
+@media (min-width: 360px) /*and (max-width: 639px)*/ {
+	body {background-color: green}
+	.item1 {display: none}
+	.item2 {display: block}
+}
+
+@media (min-width: 640px) /*and (max-width: 1023px)*/ {
+	body {background-color: blue}
+	.item2 {display: none}
+	.item3 {display: block}
+}
+
+@media (min-width: 1024px) /*and (max-width: 1200px)*/ {
+	body {background-color: gray}
+	.item3 {display: none}
+	.item4 {display: block}
+}
+
+@media (min-width: 1201px) {
+	/*body {background-color: gray}*/
+	.item4 {display: none}
+	.item5 {
+		display: block;
+		border: 10px solid blue;
+	}
+}
+
+@media (orientation: landscape) and (max-height: 400px) {
+	div {
+		text-decoration: underline;
+	}
+}
